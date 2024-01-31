@@ -1,0 +1,121 @@
+body{
+
+background-color: brown;
+color: white;
+
+}
+.image{
+
+
+border-radius: 50%;
+width: 300px;
+height: 300px;
+}
+.navbar{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-family: calibri;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.navbar a{
+  color: white;
+  margin-right: 5px;
+  text-decoration: none
+}
+
+
+#grid{
+
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 400px;
+}
+
+table{
+
+
+  margin: 5px;
+  padding: 5px;
+
+}
+
+table td{
+  
+  margin: 20px;
+  padding: 20px;
+
+}
+
+#top{
+
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(200, 200, 200, 0.5);
+  position:fixed;
+  bottom: 15px;
+  right: 15px;
+
+}
+
+/* footer{
+
+
+  
+
+
+} */
+
+#footergrid{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Calibri';
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 200px;
+  padding: 10px;
+
+
+}
+
+input{
+
+border: none;
+padding: 5px 10px;
+border-radius: 3px;
+
+
+}
+
+form{
+
+
+  margin: 10px 0px;
+}
+
+.formElement{
+
+  margin: 5px 0px;
+
+}
+
+button{
+
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: Arial;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: bold;
+
+}
